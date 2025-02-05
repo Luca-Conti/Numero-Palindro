@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+.corpo {
+    background-color: #000000;
+}
+
+.main {
+margin: 15% ;
+    
+}
+
+.conteners-inp-btt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+.conterne-btt {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    ;
+}
+.titulo {
+}
+
+.titullo__2 {
+    display: flex;
+    text-align: center;
+    color: white;
+    padding: 10px 10px 5px;
+    justify-content: center; 
+    align-items: center; 
+    font-family: "Inter", serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    
+
+}
+
+.botao1 {
+    display: flex;
+    width: 120px;
+    background-color: #22D4FD;
+    border-radius: 16px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 13px 0px 13px;
+    font-family: "Chakra Petch", serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.input-c {
+    gap: 1px;
+}
+
+.botao2 {
+    display: flex;
+    width: 120px;
+    background-color: #000000;
+    border-radius: 16px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 13px 0px 13px;
+    font-family: "Chakra Petch", serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.input {
+    display: flex;
+    width: 290px;
+    background-color: #22D4FD;
+    border-radius: 16px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 13px 0px 13px;
+    font-family: "Orbitron", serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.botao1:hover {
+    width: 160px;
+    background-color: #2ed9ff;
+    padding: 20px 0px 20px;
+    font-size: 1.7rem;
+}
+
+.final {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    border: black 10px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 18px;
+}
+
+.email {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cor__no__texto {
+    font-family: "Chakra Petch", serif;
+    background-color: #22D4FD;
+}
+
+.explicacao__palindro {
+    font-family: "Inter", serif;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.botao2:hover {
+    width: 160px;
+    background-color: #3a3a3a;
+    padding: 20px 0px 20px;
+    font-size: 1.7rem;
+}
+
+.input:hover {
+    width: 330px;
+}
+
+@media (max-width: 1300px) {
+    .main {
+        margin: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .input {
+        width: 200px;
+    }
+
+    .conterne-btt {
+        width: 200px;
+        gap: 20px;
+    }
+
+    
+
+    .email {
+        width: 250px;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .explicacao__palindro {
+        width: 250px;
+    }
+}

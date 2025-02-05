@@ -7,25 +7,32 @@
     <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon">
     <title>Numero palindro</title>
 </head>
-<body>
-    <main>
-        <div>
-            <h1>Digite um numero, que eu falarei se é um palindro ou não.</h1>
-            <h2 id="exibir"></h2>
+<body class="corpo">
+    <main class="main">
+        <div class="titulo">
+            <h1 class="titullo__2">Digite um numero, que eu falarei se é um palindro ou não.</h1>
+            <h2 id="exibir" class=""></h2>
         </div>
-        <div>
-            <input type="number" value="Digite aqui o numero." name="numero" id="numero" min="10" >
-            <button onclick="verificadorDeNumeroPalindro()">Enviar</button>
-            <button onclick="reiniciar()">Reiniciar</button>
+        <div class="conteners-inp-btt">
+            <div class="input-c">
+                <input type="number" value="Digite aqui o numero." name="numero" id="numero"   class="input">
+            </div>
+            <div class="conterne-btt">
+                <button onclick="verificadorDeNumeroPalindro()" class="botao1">Enviar</button>
+                <button onclick="reiniciar()"
+                class="botao2">Reiniciar</button>
+            </div>
         </div>
 
 
     </main>
-    <footer>
-        <p>Este site é desenvolvido por Luca Conti. O email de contato é <strong>Lucagopro12@gmail.com</strong>.</p>
-        <p>Oque é um palindro a resposda ta aqui
+    <footer class="final">
+        <p class="email">Este site é desenvolvido por Luca Conti. O email de contato é. <strong class="cor__no__texto"> Lucagopro12@gmail.com</strong>.</p>
+        <p class="explicacao__palindro">Oque é um palindro a resposda ta aqui
             <br>
-            Um palíndromo é uma sequência de caracteres (como palavras, frases e números) <br>que permanece a mesma quando lida de trás para frente e da frente para trás.</p>
+            Um palíndromo é uma sequência de caracteres <strong class="cor__no__texto">
+                (como palavras, frases e números)
+            </strong> <br>que permanece a mesma quando lida de trás para frente e da frente para trás.</p>
         </footer>
    <script src="app.js"></script> 
 </body>
