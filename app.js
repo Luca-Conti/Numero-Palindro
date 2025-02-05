@@ -23,6 +23,54 @@ function verificadorDeNumeroPalindro() {
     document.getElementById('numero').value = '';
 }
 
+
+function verificadorDeNumeroPalindroIT() {
+    function verificadorDeNumeroPalindro() {
+        var numero = document.getElementById('numero').value;
+            var numeroPalindro = numero.split("");
+            console.log(numeroPalindro);
+            var numeroInvertido = numeroPalindro.reverse();
+            console.log(numeroInvertido);
+            numeroInvertido = numeroInvertido.join("");
+            console.log(numeroInvertido);
+            var exibir = document.getElementById('exibir');
+    
+            if (numero == numeroInvertido) {
+            let tira = document.querySelector('h1')
+            tira.innerHTML = ''
+                exibir.innerHTML = `Il numero ${numero} è un palindro.`;
+                console.log(1);
+            } else {
+                exibir.innerHTML = `Il numero ${numero} non è un palindro.`;
+                console.log(2);
+            };
+    }
+
+}
+
+function verificadorDeNumeroPalindroen() {
+    function verificadorDeNumeroPalindro() {
+        var numero = document.getElementById('numero').value;
+            var numeroPalindro = numero.split("");
+            console.log(numeroPalindro);
+            var numeroInvertido = numeroPalindro.reverse();
+            console.log(numeroInvertido);
+            numeroInvertido = numeroInvertido.join("");
+            console.log(numeroInvertido);
+            var exibir = document.getElementById('exibir');
+    
+            if (numero == numeroInvertido) {
+            let tira = document.querySelector('h1')
+            tira.innerHTML = ''
+                exibir.innerHTML = `The number ${number} is a palinder.`;
+                console.log(1);
+            } else {
+                exibir.innerHTML = `The number ${number} is not a palinder.`;
+                console.log(2);
+            };
+    }
+}
+
 function reiniciar() {
     document.getElementById('numero').value = '';
     document.getElementById('exibir').innerHTML = '';

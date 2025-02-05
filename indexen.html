@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon">
+    <title>Palindrome Number</title>
+</head>
+<header class="cabecalho">
+    <a href="index.html" class="link">PT</a>
+    <a href="indexit.html" class="link">IT</a>
+</header>
+<body class="corpo">
+    <main class="main">
+        <div class="titulo">
+            <h1 class="titullo__2">Enter a number and I will tell you if it is a palindrome.</h1>
+            <h2 id="exibir"></h2>
+        </div>
+        <div class="conteners-inp-btt">
+            <div class="input-c">
+                <input type="number" placeholder="Enter the number here." id="numero" class="input">
+            </div>
+            <div class="conterne-btt">
+                <button onclick="verificadorDeNumeroPalindroen()" class="botao1">Submit</button>
+                <button onclick="reiniciar()" class="botao2">Restart</button>
+            </div>
+        </div>
+    </main>
+    <footer class="final">
+        <p class="email">This site is developed by Luca Conti. The contact email is  
+            <strong class="cor__no__texto">Lucagopro12@gmail.com</strong>.
+        </p>
+        <p class="explicacao__palindro">
+            What is a palindrome? The answer is here:  
+            <br> A palindrome is a sequence of characters  
+            <strong class="cor__no__texto">(such as words, phrases, and numbers)</strong>  
+            that remains the same when read forwards and backwards.
+        </p>
+    </footer>
+   <script src="app.js"></script> 
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it"> <!-- Altere para "en" para inglês -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon">
+    <title>Numero Palindromo</title>
+</head>
+<header class="cabecalho">
+    <a href="index.html" class="link">PT</a>
+    <a href="indexen.html" class="link">EN</a>
+</header>
+<body class="corpo">
+    <main class="main">
+        <div class="titulo">
+            <h1 class="titullo__2">Inserisci un numero e ti dirò se è un palindromo.</h1>
+            <h2 id="exibir"></h2>
+        </div>
+        <div class="conteners-inp-btt">
+            <div class="input-c">
+                <input type="number" placeholder="Inserisci qui il numero." id="numero" class="input">
+            </div>
+            <div class="conterne-btt">
+                <button onclick="verificadorDeNumeroPalindroIT()" class="botao1">Invia</button>
+                <button onclick="reiniciar()" class="botao2">Riavvia</button>
+            </div>
+        </div>
+    </main>
+    <footer class="final">
+        <p class="email">Questo sito è sviluppato da Luca Conti. L'email di contatto è  
+            <strong class="cor__no__texto">Lucagopro12@gmail.com</strong>.
+        </p>
+        <p class="explicacao__palindro">
+            Cos'è un palindromo? La risposta è qui:  
+            <br> Un palindromo è una sequenza di caratteri  
+            <strong class="cor__no__texto">(come parole, frasi e numeri)</strong>  
+            che rimane la stessa quando viene letta da sinistra a destra e da destra a sinistra.
+        </p>
+    </footer>
+   <script src="app.js"></script> 
+</body>
+</html>
