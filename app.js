@@ -32,7 +32,7 @@ function verificadorDeNumeroPalindroIT() {
     console.log(numeroInvertido);
     numeroInvertido = numeroInvertido.join("");
     console.log(numeroInvertido);
-    var exibir = document.getElementById('exibir');
+    var exibir = document.getElementById('exibir2');
 
     if (numero == numeroInvertido) {
     let tira = document.querySelector('h1')
@@ -47,24 +47,24 @@ function verificadorDeNumeroPalindroIT() {
 
 
 function verificadorDeNumeroPalindroen() {
-        var numero = document.getElementById('numero').value;
-            var numeroPalindro = numero.split("");
-            console.log(numeroPalindro);
-            var numeroInvertido = numeroPalindro.reverse();
-            console.log(numeroInvertido);
-            numeroInvertido = numeroInvertido.join("");
-            console.log(numeroInvertido);
-            var exibir = document.getElementById('exibir');
-    
-            if (numero == numeroInvertido) {
-            let tira = document.querySelector('h1')
-            tira.innerHTML = ''
-                exibir.innerHTML = `The number ${number} is a palinder.`;
-                console.log(1);
-            } else {
-                exibir.innerHTML = `The number ${number} is not a palinder.`;
-                console.log(2);
-            };
+    var numero = document.getElementById('numero').value;
+    var numeroPalindro = numero.split("");
+    console.log(numeroPalindro);
+    var numeroInvertido = numeroPalindro.reverse();
+    console.log(numeroInvertido);
+    numeroInvertido = numeroInvertido.join("");
+    console.log(numeroInvertido);
+    var exibir = document.getElementById('exibir2');
+
+    if (numero == numeroInvertido) {
+    let tira = document.querySelector('h1')
+    tira.innerHTML = ''
+        exibir.innerHTML = `The number ${number} is a palinder.`;
+        console.log(1);
+    } else {
+        exibir.innerHTML = `The number ${number} is not a palinder.`;
+        console.log(2);
+    };
     };
 
 function reiniciar() {
