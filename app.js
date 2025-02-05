@@ -37,10 +37,10 @@ function verificadorDeNumeroPalindroIT() {
     if (numero == numeroInvertido) {
     let tira = document.querySelector('h1')
     tira.innerHTML = ''
-        exibir.innerHTML = ``;
+        exibir.innerHTML = `Il numero ${numero} è un palindro.`;
         console.log(1);
     } else {
-        exibir.innerHTML = ``;
+        exibir.innerHTML = `Il numero ${numero} non è un palindro.`;
         console.log(2);
     };
 }
