@@ -15,6 +15,8 @@ function verificadorDeNumeroPalindro() {
             exibir.innerHTML = `O numero ${numero} é um palindro.`;
             console.log(1);
         } else {
+            let tira = document.querySelector('h1')
+            tira.innerHTML = ''
             exibir.innerHTML = `O numero ${numero} não é um palindro.`;
             console.log(2);
         };
@@ -32,7 +34,7 @@ function verificadorDeNumeroPalindroIT() {
     console.log(numeroInvertido);
     numeroInvertido = numeroInvertido.join("");
     console.log(numeroInvertido);
-    var exibir = document.getElementById('exibir2');
+    var exibir = document.getElementById('exibir');
 
     if (numero == numeroInvertido) {
     let tira = document.querySelector('h1')
@@ -40,6 +42,8 @@ function verificadorDeNumeroPalindroIT() {
         exibir.innerHTML = `Il numero ${numero} è un palindro.`;
         console.log(1);
     } else {
+    let tira = document.querySelector('h1')
+    tira.innerHTML = ''
         exibir.innerHTML = `Il numero ${numero} non è un palindro.`;
         console.log(2);
     };
@@ -54,15 +58,17 @@ function verificadorDeNumeroPalindroen() {
     console.log(numeroInvertido);
     numeroInvertido = numeroInvertido.join("");
     console.log(numeroInvertido);
-    var exibir = document.getElementById('exibir2');
+    var exibir = document.getElementById('exibir');
 
     if (numero == numeroInvertido) {
     let tira = document.querySelector('h1')
     tira.innerHTML = ''
-        exibir.innerHTML = `The number ${number} is a palinder.`;
+    exibir.innerHTML = `The number ${numero} is a palinder.`;
         console.log(1);
     } else {
-        exibir.innerHTML = `The number ${number} is not a palinder.`;
+    let tira = document.querySelector('h1')
+    tira.innerHTML = ''
+    exibir.innerHTML = `The number ${numero} is not a palinder.`;
         console.log(2);
     };
     };
@@ -82,7 +88,7 @@ function reiniciaren() {
 }
 
 function reiniciarit() {
+    document.querySelector('h1').textContent = `Comporre un numero, che indichi se si tratta di un palindro o meno.`;
     document.getElementById('numero').value = '';
     document.getElementById('exibir').innerHTML = '';
-    document.querySelector('h1').textContent = `Comporre un numero, che indichi se si tratta di un palindro o meno.`
 }
