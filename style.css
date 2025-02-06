@@ -203,8 +203,25 @@ margin: 15% ;
     .explicacao__palindro {
         width: 250px;
     }
+    .botao1:hover {
+        width: 120px;
+        background-color: #2ed9ff;
+        padding: 20px 0px 20px;
+        font-size: 1.3rem;
+    }
 
-    .cabecalho {
-        
+    .botao2:hover {
+        width: 120px;
+        background-color: #3a3a3a;
+        padding: 20px 0px 20px;
+        font-size: 1.3rem;
+    }
+    
+    .input:hover {
+        width: 290px;
+    }
+    
+    .link:hover {
+        width: 100px;
     }
 }
